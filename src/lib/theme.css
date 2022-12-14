@@ -1,0 +1,44 @@
+:root {
+  --white: white;
+  --half-spacing: calc(var(--spacing) / 2);
+  --dark-mode: #161616;
+}
+
+body {
+  font-size: 16px;
+  transition: filter 300ms ease-in-out;
+}
+
+.dark  {
+  background-color: var(--dark-mode);
+}
+
+/* Sidebar */
+main:has(.sidebar) {
+  padding-block-end: 0;
+}
+
+.sidebar {
+  gap: calc(var(--spacing) * 2);
+  align-items: start;
+}
+
+@media (min-width: 769px) {
+  main:has(.sidebar) {
+    padding-block-end: calc(var(--spacing) * 2);
+  }
+
+  .sidebar {
+    grid-template-columns: 2fr 1fr;
+    max-width: 1100px;
+    margin-inline: auto;
+  }
+}
+
+/*
+  Styles under consideration to be moved to the 
+  the base stylesheet
+*/
+
+
+

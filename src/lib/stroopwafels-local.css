@@ -1,0 +1,66 @@
+/* Logo */
+nav h1 a div small {
+  color: var(--light);
+}
+
+nav h1 {
+  margin-left: -0.5rem !important;
+  font-size: 1.25rem;
+}
+
+nav img {
+  width: 4rem;
+}
+
+nav h1 a {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--spacing) / 2);
+}
+
+.isOpen>ul>li {
+  border-bottom: 1px solid var(--black) !important;
+}
+
+header {
+  border-bottom: calc(var(--spacing) / 4) solid var(--black);
+}
+
+header svg,
+header i {
+  color: var(--black) !important;
+}
+
+.dark header {
+  background-color: var(--black) !important;
+}
+
+.dark nav a,
+.dark nav svg,
+.dark i {
+  color: var(--white) !important;
+}
+
+.dark nav ul ul {
+  background-color: var(--black) !important;
+}
+
+.dark .isOpen>ul>li {
+  border-bottom: 1px solid var(--white) !important;
+}
+
+/* Slider */
+#slider article::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.16);
+}
+
+#slider h2 {
+  font-size: 8vw;
+  z-index: 1;
+}
