@@ -9,7 +9,7 @@
 <h1 class="section">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
 
 <section>
-  <h2>+Tempora nisi dolores doloremque</h2>
+  <h2>Tempora nisi dolores doloremque</h2>
 
   <div>
     <p>
